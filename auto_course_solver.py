@@ -12,7 +12,7 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 CDP_URL = "http://localhost:9222"
 
 # 大模型 API 配置 (改回 DeepSeek)
-LLM_API_KEY = "sk-18a8faa363ba400da41bddf859d56c22"
+LLM_API_KEY = "sk*****"
 LLM_API_URL = "https://api.deepseek.com/chat/completions" # DeepSeek API
 LLM_MODEL_NAME = "deepseek-chat" # DeepSeek 对话模型
 
